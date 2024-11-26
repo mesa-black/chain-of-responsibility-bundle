@@ -1,0 +1,23 @@
+{
+    "name": "blackmesa/chainofresponsibility-bundle",
+    "description": "Chain of Responsibility symfony bundle",
+    "type": "symfony-bundle",
+    "keywords": [],
+    "homepage": "https://mesa.black",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Nadaud",
+            "email": "jerome@mesa.black"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlackMesa\\Bundle\\ChainOfResponsibilityBundle\\": ""
+        }
+    }
+}

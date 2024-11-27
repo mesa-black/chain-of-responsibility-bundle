@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BlackMesa\\Bundle\\ChainOfResponsibilityBundle\\": ""
+            "BlackMesa\\ChainOfResponsibilityBundle\\": ""
         }
     }
 }

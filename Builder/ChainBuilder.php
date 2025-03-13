@@ -24,6 +24,7 @@ final class ChainBuilder
 
         foreach ($this->handlers as $handler) {
             $currentHandler->setNext($handler);
+            $handler->setPrevious($currentHandler);
             $currentHandler = $handler;
         }
 
